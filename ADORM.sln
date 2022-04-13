@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADORM", "ADORM\ADORM.csproj", "{828F48BA-089B-4012-B75E-4E510036D3CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{828F48BA-089B-4012-B75E-4E510036D3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828F48BA-089B-4012-B75E-4E510036D3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828F48BA-089B-4012-B75E-4E510036D3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828F48BA-089B-4012-B75E-4E510036D3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28F18510-5327-4FAC-AE4F-6D3C8AE3A766}
+	EndGlobalSection
+EndGlobal
