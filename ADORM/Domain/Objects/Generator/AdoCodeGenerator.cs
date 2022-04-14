@@ -90,7 +90,7 @@ namespace ADORM.Domain.Objects.Generator
                 tableSchema.Columns.Add(new ColumnSchema
                 {
                     Name = col.ColumnName,
-                    DataType = col.DataType,
+                    SystemType = col.DataType,
                     IsIdentity = col.AutoIncrement,
                     IsNullable = col.AllowDBNull,
                     Length = col.MaxLength,
@@ -138,7 +138,7 @@ namespace ADORM.Domain.Objects.Generator
             {
                 entityProject = Context.Add(new EntityProjectTemplate());
                 Context.Add(new EntityAssemblyInfoTemplate(entityProject));
-                Context.Add(new BaseEntityTemplate());
+                //Context.Add(new BaseEntityTemplate());
                 Context.AddByIndexes(EntityTemplate.FromIndex);
             }
             ReposProjectTemplate reposProject = null;

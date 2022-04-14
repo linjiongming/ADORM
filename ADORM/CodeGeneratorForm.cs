@@ -141,7 +141,7 @@ namespace ADORM
                 var root = TablesTreeView.Nodes.Add("All");
                 Generator = new AdoCodeGenerator(Option);
                 Generator.OnReportProgress += GenBackgroundWorker.ReportProgress;
-                foreach (var tableName in Generator.GetAllTableNames())
+                foreach (var tableName in Generator.GetAllTableNames().OrderBy(x => x))
                 {
                     root.Nodes.Add(tableName);
                     root.Expand();

@@ -32,12 +32,9 @@ namespace {NameSpace}
     /// <summary>
     /// {Entity.Description}
     /// </summary>
-    public partial class {Entity.Name} : {BaseEntityTemplate.ClassName}
+    public partial class {Entity.Name}
     {{
-        {string.Join("\r\n        ", Entity.Properties.Select(x => $@"/// <summary>
-        /// {x.Description}
-        /// </summary>
-        public {x.TypeName} {x.Name} {{ get; set; }}"))}
+        {string.Join("\r\n        ", Entity.Properties.Select(x => $@"public {x.TypeName} {x.Name} {{ get; set; }}"))}
     }}
 }}";
     }

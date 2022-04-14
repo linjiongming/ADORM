@@ -29,6 +29,7 @@ namespace ADORM.Domain.Objects.Schema
                 Name = x.Name,
                 //Description = string.IsNullOrWhiteSpace(x.Description) ? x.Name : x.Description.Replace("\n", string.Empty),
                 Description = x.Name,
+                SystemType = x.SystemType,
                 DataType = x.DataType,
                 TypeName = x.TypeName,
                 IsNullable = x.IsNullable,
